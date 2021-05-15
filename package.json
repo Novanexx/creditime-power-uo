@@ -1,0 +1,15 @@
+{
+  "name": "creditime-power-up",
+  "version": "1.0.0",
+  "description": "Power up sur le credit time",
+  "main": "index.js",
+  "repository": "https://github.com/Novanexx/creditime-power-up.git",
+  "author": "gaetan mbumba <gaetan.mbumba@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/html/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
