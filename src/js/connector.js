@@ -3,7 +3,7 @@ var GRAY_ICON = 'https://cdn.hyperdev.com/us-east-1%3A3d31b21c-01a0-4da2-8827-4b
 var onBtnClick = function(t, options){
   return t.popup({
     title:"Nouvelle intervention",
-    url:'./html/popupNewInter.html',
+    url:'./popupNewInter.html',
     height: 250
   });
 }
@@ -24,7 +24,7 @@ window.TrelloPowerUp.initialize({
       callback: function(t, options){
         return t.popup({
           title:"List des intervention Intervention",
-          url:'./html/popupListInter.html',
+          url:'./popupListInter.html',
           height: 250
         });
       }
