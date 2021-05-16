@@ -14,7 +14,7 @@ window.TrelloPowerUp.initialize({
       callback: function(t, options){
         return t.popup({
           Title:"Nouvelle Intervention",
-          url:"./popupNewInter.html",
+          url:"../html/popupNewInter.html",
           height: 250
         });
       }
@@ -26,7 +26,7 @@ window.TrelloPowerUp.initialize({
       callback: function(t, options){
         return t.popup({
           Title:"List des intervention Intervention",
-          url:"./popupListInter.html",
+          url:"../html/popupListInter.html",
           height: 250
         });
       }
