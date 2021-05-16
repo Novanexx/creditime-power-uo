@@ -6,6 +6,7 @@ var onBtnClick = function(t, options){
     url:'./html/popupNewInter.html',
     height: 250
   });
+}
 
 window.TrelloPowerUp.initialize({
   'card-buttons': function (t, opts) {
