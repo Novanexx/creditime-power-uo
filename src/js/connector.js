@@ -16,7 +16,7 @@ window.TrelloPowerUp.initialize({
           Title:"Nouvelle Intervention",
           url:"./popupNewInter.html",
           height: 250
-        })
+        });
       }
 
     }, {
@@ -28,7 +28,7 @@ window.TrelloPowerUp.initialize({
           Title:"List des intervention Intervention",
           url:"./popupListInter.html",
           height: 250
-        })
+        });
       }
 
 
