@@ -11,13 +11,7 @@ window.TrelloPowerUp.initialize({
       // we recommend that you use a popup on click generally
       icon: GRAY_ICON, // don't use a colored icon here
       text: '+ inter',
-      callback: function(t, options){
-        return t.popup({
-          Title:"Nouvelle Intervention",
-          url:"../html/popupNewInter.html",
-          height: 250
-        });
-      }
+      callback: onBtnClick
 
     }, {
       // but of course, you could also just kick off to a url if that's your thing
